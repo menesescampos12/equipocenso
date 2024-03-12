@@ -49,7 +49,25 @@ const Form = () => {
     
    
 
-    <h1> Pagina de Censados</h1>
+    <h1> Secretaria de Bienestar Gob.mx</h1>
+     
+     
+
+    <section id="sobremi">
+    <div class="contenedor-foto">
+    <img src="images/sobre.jpeg" alt="dacnificados traes el paso de huracan otis" />
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Esta pagina es del gobmexico</p>
+        <h3>La Secretaría de Bienestar inicia un camino de transformación para que las y los mexicanos tengamos una vida mejor. Junto al Gobierno de México hemos de empeñarnos en un cambio de fondo, tras el paso del huracan otis bienestar .gob.mx</h3>
+        <p>bienestar de pagos</p>
+        <img src="images/censooooo.jpeg" alt="dacnificados" />
+        <p>Protección de Datos Personales
+Se considera información confidencial la que contiene datos personales concernientes a una persona física identificada o identificable</p>
+    </div>
+</section>
+
+    
 
     <div id="kiko-slider">
 

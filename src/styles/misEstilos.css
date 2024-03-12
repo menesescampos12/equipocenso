@@ -1548,3 +1548,104 @@ body {
 .menu li a.active {
   background-color: #ff6600; /* Cambia el color del enlace activo según tu preferencia */
 }
+/* Estilos para la sección sobremi */
+#sobremi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url('descarga2.jpeg'); /* Ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contenedor-foto {
+  width: 50%;
+}
+
+.contenedor-foto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sobremi {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.titulo-seccion {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fffafa;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #f7f6f6;
+}
+
+p {
+  font-size: 16px;
+  color: #fbf7f7;
+  margin-bottom: 10px;
+}
+
+
+/* Estilos para el formulario de registro */
+.form-horizontal {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.control-label {
+  font-weight: bold;
+}
+
+.input-md {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el contenedor del botón */
+fieldset {
+  border: none;
+}
+
+/* Estilos opcionales para el select */
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+  background-color: #4caf50;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+

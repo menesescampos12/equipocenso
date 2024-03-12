@@ -32,7 +32,7 @@ function MenuNavbar() {
         
         <Navbar.Brand href="#home" className="color-menu titulo-menu">
           
-          CENSO ACAPULCO OTIS
+          Bienestar
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -47,9 +47,10 @@ function MenuNavbar() {
           <form className="form-inline">
       <div className="input-group">
         <div className="input-group-prepend">
-          <span className="input-group-text" id="basic-addon1">@</span>
+          <span className="input-group-text" id="basic-addon1">Buscar</span>
         </div>
         <input type="text" className="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1" />
+        
       </div>
     </form>
     <ul className="nav navbar-nav navbar-right">
