@@ -1,4 +1,4 @@
-import RegisterTable from "app/components/RegisterTable";
+
 import LayoutFrontal from "app/layout/LayoutFrontal";
 import React from "react";
 import RegisterTable from "app/components/crud";
