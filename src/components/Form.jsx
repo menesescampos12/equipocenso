@@ -564,10 +564,10 @@ const Form = () => {
       </form>
       
       <nav class="nav nav-pills nav-fill">
-  <a class="nav-item nav-link active" href="/registers">menu</a>
-  <a class="nav-item nav-link" href="/registers">inicio</a>
-  <a class="nav-item nav-link" href="/registers">dacnificados</a>
-  <a class="nav-item nav-link disabled" href="/registers">pagina</a>
+  <a class="nav-item nav-link active" href="/registers">Menú</a>
+  <a class="nav-item nav-link" href="/registers">Inicio</a>
+  <a class="nav-item nav-link" href="/registers">Damnificados</a>
+  <a class="nav-item nav-link disabled" href="/registers">Página</a>
 </nav>
 
     </>
