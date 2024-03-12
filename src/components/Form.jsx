@@ -47,6 +47,12 @@ const Form = () => {
   return (
     <>
     
+    <nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link active" href="/registers">Menú</a>
+  <a class="nav-item nav-link" href="/registers">Inicio</a>
+  <a class="nav-item nav-link" href="/registers">Damnificados</a>
+  <a class="nav-item nav-link disabled" href="/registers">Página</a>
+</nav>
    
 
     <h1> Secretaria de Bienestar</h1>
