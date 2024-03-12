@@ -5,7 +5,7 @@ import "../styles/misEstilos.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Dacnificados en Acapulco",
+  title: "Bienestar.mx",
   description: "Sitio para censar a damnificados del huracán Otis en Acapulco",
 };
 
