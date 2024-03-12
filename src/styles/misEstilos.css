@@ -1688,3 +1688,62 @@ p {
 
 
 
+
+/* Estilos para el botón de actualizar */
+.btn-update {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero al pasar por encima */
+  margin-right: 10px; /* Margen derecho para separar botones */
+}
+
+/* Estilos para el botón de volver */
+.btn-back {
+  background-color: #f44336; /* Color de fondo rojo */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero al pasar por encima */
+  text-decoration: none; /* Quitar subrayado */
+}
+
+/* Estilos cuando se pasa el cursor por encima */
+.btn-update:hover, .btn-back:hover {
+  opacity: 0.8; /* Reducir opacidad */
+}
+
+/* Estilos para los botones */
+.btn-delete, .btn-update {
+  padding: 8px 16px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero al pasar por encima */
+  font-weight: bold; /* Texto en negrita */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+/* Estilos para el botón de eliminar */
+.btn-delete {
+  background-color: #f44336; /* Color de fondo rojo */
+  color: white; /* Color del texto blanco */
+}
+
+/* Estilos para el botón de actualizar */
+.btn-update {
+  background-color: #2196F3; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+}
+
+/* Estilos cuando se pasa el cursor por encima */
+.btn-delete:hover, .btn-update:hover {
+  opacity: 0.8; /* Reducir opacidad */
+}
+
+
+
+
+
