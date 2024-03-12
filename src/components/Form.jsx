@@ -376,47 +376,6 @@ const Form = () => {
     </section>
 </main>
 
-      
-
-
-
-
-      <div className="container">
-  <div className="row">
-    <div className="col-sm-3">
-      <h2>Enlaces</h2>
-      <ul>
-        <li><a href="/temas">Temas</a></li>
-        <li><a href="/accesibilidad">Declaración de Accesibilidad</a></li>
-        <li><a href="/privacidadintegral">Aviso de privacidad</a></li>
-        <li><a href="/privacidadsimplificado">Aviso de privacidad simplificado</a></li>
-        <li><a href="/terminos">Términos y Condiciones</a></li>
-        <li><a href="/terminos#medidas-seguridad-informacion">Política de seguridad</a></li>
-        <li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco jurídico</a></li>
-        <li><a href="/sitemap">Mapa de sitio</a></li>
-      </ul>
-    </div>
-    <div className="col-sm-3">
-      <h2>Contacto</h2>
-      <p>Dudas e información: <a href="mailto:demandasocial@bienestar.gob.mx">demandasocial@bienestar.gob.mx</a></p>
-      <h2>Síguenos en</h2>
-      <ul className="list-inline">
-        <li>
-          <a href="https://www.facebook.com/gobmexico" target="_blank" rel="noopener" className="footer" title="enlace a facebook abre en una nueva ventana">
-            <img alt="Facebook" src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" />
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/GobiernoMX" target="_blank" rel="noopener" className="footer" title="Enlace a twitter abre en una nueva ventana">
-            <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" />
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-
 
 <h1>Registro para censados</h1>
 <form className="form-horizontal">
@@ -569,6 +528,42 @@ const Form = () => {
   <a class="nav-item nav-link" href="/registers">Damnificados</a>
   <a class="nav-item nav-link disabled" href="/registers">Página</a>
 </nav>
+
+<div className="container">
+  <div className="row">
+    <div className="col-sm-3">
+      <h2>Enlaces</h2>
+      <ul>
+        <li><a href="/temas">Temas</a></li>
+        <li><a href="/accesibilidad">Declaración de Accesibilidad</a></li>
+        <li><a href="/privacidadintegral">Aviso de privacidad</a></li>
+        <li><a href="/privacidadsimplificado">Aviso de privacidad simplificado</a></li>
+        <li><a href="/terminos">Términos y Condiciones</a></li>
+        <li><a href="/terminos#medidas-seguridad-informacion">Política de seguridad</a></li>
+        <li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco jurídico</a></li>
+        <li><a href="/sitemap">Mapa de sitio</a></li>
+      </ul>
+    </div>
+    <div className="col-sm-3">
+      <h2>Contacto</h2>
+      <p>Dudas e información: <a href="mailto:demandasocial@bienestar.gob.mx">demandasocial@bienestar.gob.mx</a></p>
+      <h2>Síguenos en</h2>
+      <ul className="list-inline">
+        <li>
+          <a href="https://www.facebook.com/gobmexico" target="_blank" rel="noopener" className="footer" title="enlace a facebook abre en una nueva ventana">
+            <img alt="Facebook" src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/GobiernoMX" target="_blank" rel="noopener" className="footer" title="Enlace a twitter abre en una nueva ventana">
+            <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 
     </>
     
