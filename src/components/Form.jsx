@@ -58,7 +58,7 @@ const Form = () => {
         <img src="images/sobre.jpeg" alt="dacnificados traes el paso de huracan otis" />
     </div>
     <div class="sobremi">
-        <p class="titulo-seccion">Esta página es del gobmexico</p>
+        <p class="titulo-seccion">Esta página es parte del Gobierno de México</p>
         <h3>La Secretaría de Bienestar</h3>
         <p>bienestar de pagos</p>
         <div id="kiko-slider">
