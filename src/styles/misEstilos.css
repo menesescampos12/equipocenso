@@ -1554,7 +1554,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-image: url('descarga2.jpeg'); /* Ruta de tu imagen de fondo */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1577,75 +1576,115 @@ body {
 .titulo-seccion {
   font-size: 24px;
   font-weight: bold;
-  color: #fffafa;
+  color: #9e4545;
   margin-bottom: 10px;
 }
 
 h3 {
   font-size: 18px;
-  color: #f7f6f6;
+  color: #0a0a0a;
 }
 
 p {
   font-size: 16px;
-  color: #fbf7f7;
+  color: #060606;
   margin-bottom: 10px;
 }
 
 
-/* Estilos para el formulario de registro */
-.form-horizontal {
-  width: 60%;
-  margin: 0 auto;
+/* Estilos para el carrusel */
+.carrusel {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.form-group {
-  margin-bottom: 15px;
+.carrusel-imagenes {
+  display: flex;
 }
 
-.control-label {
-  font-weight: bold;
+.carrusel-imagenes img {
+  max-width: 100%;
+  display: block;
 }
 
-.input-md {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+.anterior, .siguiente {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.anterior {
+  left: 0;
 }
 
-/* Estilos para el contenedor del botón */
-fieldset {
-  border: none;
+.siguiente {
+  right: 0;
 }
 
-/* Estilos opcionales para el select */
-select {
+
+
+
+.slider li img {
+  max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto; /* Mantén la proporción de aspecto */
+  display: block; /* Asegúrate de que la imagen se muestre como un bloque */
+  margin: 0
+  auto; /* Centra la imagen horizontalmente */
+}
+
+
+
+.slider1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap; /* Para mantener los elementos en una línea */
+}
+
+.slider1 li {
+  display: inline-block;
+  width: 100%; /* Ajusta el ancho de las diapositivas */
+  vertical-align: top; /* Alinea las diapositivas en la parte superior */
+}
+
+.slider1 img {
   width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  height: auto;
 }
 
-/* Estilos para el botón de enviar */
-button[type="submit"] {
-  background-color: #4caf50;
+.animation {
+  animation: slide 5s infinite; /* Duración de la animación */
 }
 
-button[type="submit"]:hover {
-  background-color: #45a049;
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
 }
+
+
+
+.slider ul {
+  list-style-type: none;
+  padding: 5;
+  margin: 5;
+}
+
+.slider ul li img {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+
+
 

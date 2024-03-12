@@ -55,17 +55,33 @@ const Form = () => {
 
     <section id="sobremi">
     <div class="contenedor-foto">
-    <img src="images/sobre.jpeg" alt="dacnificados traes el paso de huracan otis" />
+        <img src="images/sobre.jpeg" alt="dacnificados traes el paso de huracan otis" />
     </div>
     <div class="sobremi">
-        <p class="titulo-seccion">Esta pagina es del gobmexico</p>
-        <h3>La Secretaría de Bienestar inicia un camino de transformación para que las y los mexicanos tengamos una vida mejor. Junto al Gobierno de México hemos de empeñarnos en un cambio de fondo, tras el paso del huracan otis bienestar .gob.mx</h3>
+        <p class="titulo-seccion">Esta página es del gobmexico</p>
+        <h3>La Secretaría de Bienestar gob.mx</h3>
         <p>bienestar de pagos</p>
-        <img src="images/censooooo.jpeg" alt="dacnificados" />
-        <p>Protección de Datos Personales
-Se considera información confidencial la que contiene datos personales concernientes a una persona física identificada o identificable</p>
+        <div id="kiko-slider">
+
+        <div className="slider">
+    <ul>
+        <li>
+        <img src="images/images4.jpeg" alt="mejor productos" />
+        </li>
+        <li>
+        <img src="images/images6.jpeg" alt="mejor productos" />
+        </li>
+        <li>
+        <img src="images/images7.jpeg" alt="mejor productos" />
+        </li>
+    </ul>
+</div>
+</div>
+        <p>Protección de Datos Personales Contiene datos personales concernientes.</p>
     </div>
 </section>
+
+
 
     
 
@@ -78,6 +94,7 @@ Se considera información confidencial la que contiene datos personales concerni
     </li>
     <li id="slide2">
     <img src="images/1.jpeg" alt="mejor productos" />
+    <img src="images/images4.jpeg" alt="mejor productos" />
     </li>
     <li id="slide3">
         <h1>Ayuda a la reconstruccion de viviendas en Acapulco</h1>
