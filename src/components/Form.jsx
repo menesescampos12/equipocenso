@@ -60,7 +60,7 @@ const Form = () => {
     <div class="sobremi">
         <p class="titulo-seccion">Esta página es parte del Gobierno de México</p>
         <h3>La Secretaría de Bienestar</h3>
-        <p>bienestar de pagos</p>
+        <p>Consulta la información sobre los pagos y censos</p>
         <div id="kiko-slider">
 
         <div className="slider">
