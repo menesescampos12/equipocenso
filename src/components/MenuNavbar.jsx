@@ -12,15 +12,6 @@ function MenuNavbar() {
   //Aquí haremos el manejo de estado para poner un encabezado
   const [encabezado, setEncabezado] = useState("");
 
-  /* Ejemplo de consumo de datos de supabase */
-  useEffect(() => {
-    const fetch = async () => {
-      const { data, error } = await supabaseClient.from("colonias").select();
-      setEncabezado(data[7].municipio);
-      data;
-    };
-    fetch();
-  });
   
   return (
     
@@ -94,6 +85,7 @@ function MenuNavbar() {
               </ul>
             </li>
           </ul>
+          
     
 
         </Navbar.Collapse>
