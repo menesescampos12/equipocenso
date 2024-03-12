@@ -184,7 +184,7 @@ const Form = () => {
         <span className="add-cart">
           <i className="fa-solid fa-basket-shopping" />
         </span>
-        <p className="price">apoyos acapulco de la secretaria de marina</p>
+        <p className="price">Apoyos por parte de la Marina</p>
       </div>
     </div>
     <div className="card-product">
