@@ -1801,3 +1801,51 @@ p {
 
 
 
+/* Estilos para el formulario de agregar registro */
+form {
+  margin-bottom: 20px;
+}
+
+form input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para la tabla de registros */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los botones de editar y eliminar */
+table button {
+  margin-right: 5px;
+  padding: 3px 6px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+table button:hover {
+  background-color: #c82333;
+}
