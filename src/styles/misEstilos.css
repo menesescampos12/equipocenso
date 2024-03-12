@@ -1,0 +1,1550 @@
+.color-menu {
+  background-color: #203b17 !important; /* Cambiamos el color de fondo */
+  color: #faf7f7 !important; /* Cambiamos el color del texto */
+  padding: 10px; /* Añadimos un padding para separar el contenido del borde */
+  border-radius: 5px; /* Añadimos bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.952); /* Añadimos una sombra */
+}
+
+.titulo-menu {
+  margin-left: 15px;
+  font-size: 20px; /* Aumentamos el tamaño del texto */
+  font-weight: bold; /* Hacemos el texto en negrita */
+  text-decoration: underline; /* Subrayamos el texto */
+}
+.bg-body-tertiary {
+  background-image: url('imagen111.jpeg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el área */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: 
+    url('blanco.jpeg'), /* Primera imagen de fondo */
+    url('blanco.jpeg'); /* Segunda imagen de fondo */
+  background-size: cover, auto; /* El tamaño de la primera imagen cubre toda la pantalla, la segunda se ajusta automáticamente */
+  background-position: center, center; /* Ambas imágenes centradas */
+  background-repeat: no-repeat;
+}
+
+
+
+.titulo-menu {
+  margin-left: 15px;
+}
+.logo {
+  width: 150px; /* Ancho deseado del logo */
+  height: 200px; /* Altura deseada del logo */
+  background-image: url('logo.jpeg'); /* Ruta de la imagen de fondo */
+  background-size: contain; /* Ajusta la imagen para que quepa dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Estilo para la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo para las celdas de la tabla */
+.table th,
+.table td {
+  border: 1px solid #ddd; /* Borde de las celdas */
+  padding: 8px; /* Espaciado interno */
+  text-align: left; /* Alineación del texto */
+}
+
+/* Estilo para las filas impares de la tabla */
+.table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Color de fondo */
+}
+
+/* Estilo para la imagen de fondo */
+body {
+  background-image: url('blanco.jpeg'); /* Ruta de la imagen */
+  background-size: cover; /* Cubrir todo el fondo */
+  background-repeat: no-repeat; /* No repetir la imagen */
+  background-attachment: fixed; /* Fijar la imagen de fondo */
+}
+
+
+.search-container {
+  margin-bottom: 10px;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+/* styles.css */
+
+.menu-navbar {
+  background-color: #007bff; /* Color de fondo */
+  background-image: url('/src/styles/fondo.jpeg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajuste de tamaño de la imagen */
+  background-position: center; /* Posición de la imagen */
+  color: white; /* Color del texto */
+}
+
+.menu-navbar .navbar-brand {
+  margin-right: 15px; /* Espaciado a la derecha para el logotipo */
+}
+
+.menu-navbar .nav-link {
+  color: white !important; /* Color del texto del enlace */
+}
+
+.menu-navbar .navbar-nav .nav-link:hover {
+  color: #ffc107 !important; /* Cambio de color al pasar el cursor sobre el enlace */
+}
+
+/* styles.css */
+
+/* Contenedor del formulario */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #05f8e4;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(255, 2, 2);
+}
+
+/* Etiqueta del formulario */
+.form-container legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Grupo de campos */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Etiqueta de campo */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Campo de entrada de texto */
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b62e2e;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Botón de envío */
+.form-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00ff59;
+  color: #ef0909;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el cursor */
+.form-container button:hover {
+  background-color: #39e809;
+}
+
+
+h1 {
+  color: rgb(19, 19, 19); /* Cambia "blue" por el color que desees */
+}
+
+
+
+/* Estilo para el texto de la leyenda */
+legend {
+  color: #0f0f0e; /* Color de letra gris oscuro */
+}
+
+/* Estilo para el texto de las etiquetas */
+.form-group label {
+  color: #faf8f8; /* Color de letra azul */
+}
+
+/* Estilo para el texto de los campos de entrada */
+.form-control {
+  color: #398d4d; /* Color de letra verde */
+}
+
+/* Estilo para el texto de los botones */
+button {
+  color: #ae3131; /* Color de letra rojo */
+}
+
+/* Estilos para los enlaces */
+.list-inline a {
+  color: rgb(249, 249, 252); /* Color del texto de los enlaces */
+}
+
+/* Estilos para los enlaces al pasar el mouse */
+.list-inline a:hover {
+  color: red; /* Color del texto al pasar el mouse sobre los enlaces */
+}
+
+/* Estilos para las imágenes */
+.list-inline img {
+  border-radius: 50%; /* Estilo adicional para las imágenes (borde redondeado en este caso) */
+}
+
+.row {
+  background-color: #36582e; /* Color de fondo para la fila */
+}
+
+.col-sm-3 {
+  padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+.list-inline {
+  margin-top: 10px; /* Ajusta el margen superior de la lista */
+}
+
+.list-inline li {
+  margin-bottom: 5px; /* Ajusta el margen inferior de cada elemento de la lista */
+}
+
+.list-inline a {
+  color: #36582e; /* Color de texto para los enlaces */
+}
+
+.list-inline a:hover {
+  color: #36582e; /* Color de texto al pasar el mouse sobre los enlaces */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Ajusta el margen inferior de cada grupo de formulario */
+}
+
+.col-md-4 {
+  margin-bottom: 10px; /* Ajusta el margen inferior de cada columna */
+}
+
+input[type="text"],
+input[type="date"],
+select.form-control {
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo para los campos de entrada */
+  border: none; /* Elimina el borde de los campos de entrada */
+  padding: 10px; /* Añade espacio interno a los campos de entrada */
+  width: 100%; /* Ancho completo para los campos de entrada */
+}
+
+button {
+  background-color: #438762; /* Color de fondo para el botón */
+  color: #fff; /* Color de texto para el botón */
+  border: none; /* Elimina el borde del botón */
+  padding: 10px 20px; /* Ajusta el espacio interno del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo para el botón al pasar el mouse */
+}
+/* Estilos para el menú de navegación */
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+.navbar-nav li:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.navbar-nav li a:hover {
+  background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-search {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-search img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-nav li {
+  position: relative;
+}
+
+.navbar-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.navbar-nav li:hover ul {
+  display: block;
+}
+
+.navbar-nav li ul li {
+  margin: 0;
+}
+
+.navbar-nav li ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+.navbar-nav li ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+  color: rgb(188, 66, 66);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del banner */
+.banner {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-banner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content-banner h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.content-banner a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fcfafa;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Estilos de las características */
+.container-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-feature {
+  background-color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.card-feature i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.card-feature span {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-feature p {
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Estilos del contenedor de productos */
+.top-products {
+  text-align: center;
+}
+
+/* Estilos del título */
+.heading-1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Estilos del contenedor de opciones */
+.container-options {
+  margin-bottom: 20px;
+}
+
+.container-options span {
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.container-options span.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Estilos del contenedor de productos */
+.container-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 20rem);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-img-3 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+
+
+#sobremi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contenedor-foto {
+  margin-right: 20px;
+}
+
+.contenedor-foto img {
+  width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  border-radius: 50%; /* Para hacer la imagen redonda */
+}
+
+.sobremi {
+  max-width: 600px; /* Ajusta el ancho máximo del texto */
+}
+
+.titulo-seccion {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+
+/* Estilos generales del formulario */
+.form-horizontal {
+  max-width: 600px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para los elementos del formulario */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.control-label {
+  font-weight: bold;
+}
+
+.input-md {
+  width: 100%; /* Ancho completo para los campos de entrada */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider{
+width: 100%;
+height: 600px;
+overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  animation: cambio 20s infinite alternate linear;
+  width: 400%;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 100%;
+  height: 100%;
+}
+@keyframes cambio{
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+  
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+  
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+  
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+  height: 100vh;
+}   
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 30rem);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-img-3 {
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+
+* ********************************** */
+/*              SPECIALS              */
+/* ********************************** */
+.specials {
+display: flex;
+flex-direction: column;
+gap: 2rem;
+margin-bottom: 3rem;
+}
+
+
+/* Estilo para las celdas de la tabla */
+.table th,
+.table td {
+border: 1px solid #ddd; /* Borde de las celdas */
+padding: 8px; /* Espaciado interno */
+text-align: left; /* Alineación del texto */
+}
+
+/* Estilo para las filas impares de la tabla */
+.table tbody tr:nth-child(odd) {
+background-color: #f2f2f2; /* Color de fondo */
+}
+
+/* Estilo para la imagen de fondo */
+body {
+background-image: url('blanco.jpeg'); /* Ruta de la imagen */
+background-size: cover; /* Cubrir todo el fondo */
+background-repeat: no-repeat; /* No repetir la imagen */
+background-attachment: fixed; /* Fijar la imagen de fondo */
+}
+
+
+.search-container {
+margin-bottom: 10px;
+}
+
+.search-container input[type="text"] {
+padding: 8px;
+margin-right: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.search-container button {
+padding: 8px 16px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.search-container button:hover {
+background-color: #0056b3;
+}
+
+/* styles.css */
+
+.menu-navbar {
+background-color: #007bff; /* Color de fondo */
+background-image: url('/src/styles/fondo.jpeg'); /* Ruta de la imagen de fondo */
+background-size: cover; /* Ajuste de tamaño de la imagen */
+background-position: center; /* Posición de la imagen */
+color: white; /* Color del texto */
+}
+
+.menu-navbar .navbar-brand {
+margin-right: 15px; /* Espaciado a la derecha para el logotipo */
+}
+
+.menu-navbar .nav-link {
+color: white !important; /* Color del texto del enlace */
+}
+
+.menu-navbar .navbar-nav .nav-link:hover {
+color: #ffc107 !important; /* Cambio de color al pasar el cursor sobre el enlace */
+}
+
+/* styles.css */
+
+/* Contenedor del formulario */
+.form-container {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #05f8e4;
+border-radius: 8px;
+background-color: #fff;
+box-shadow: 0 0 10px rgb(255, 2, 2);
+}
+
+/* Etiqueta del formulario */
+.form-container legend {
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+/* Grupo de campos */
+.form-group {
+margin-bottom: 20px;
+}
+
+/* Etiqueta de campo */
+.form-group label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+/* Campo de entrada de texto */
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group select {
+width: 100%;
+padding: 10px;
+border: 1px solid #b62e2e;
+border-radius: 5px;
+font-size: 1rem;
+}
+
+/* Botón de envío */
+.form-container button {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: #00ff59;
+color: #ef0909;
+font-size: 1rem;
+cursor: pointer;
+}
+
+/* Estilo para el botón de envío al pasar el cursor */
+.form-container button:hover {
+background-color: #39e809;
+}
+
+
+h1 {
+color: rgb(19, 19, 19); /* Cambia "blue" por el color que desees */
+}
+
+
+
+/* Estilo para el texto de la leyenda */
+legend {
+color: #0f0f0e; /* Color de letra gris oscuro */
+}
+
+/* Estilo para el texto de las etiquetas */
+.form-group label {
+color: #faf8f8; /* Color de letra azul */
+}
+
+/* Estilo para el texto de los campos de entrada */
+.form-control {
+color: #398d4d; /* Color de letra verde */
+}
+
+/* Estilo para el texto de los botones */
+button {
+color: #ae3131; /* Color de letra rojo */
+}
+
+/* Estilos para los enlaces */
+.list-inline a {
+color: rgb(249, 249, 252); /* Color del texto de los enlaces */
+}
+
+/* Estilos para los enlaces al pasar el mouse */
+.list-inline a:hover {
+color: red; /* Color del texto al pasar el mouse sobre los enlaces */
+}
+
+/* Estilos para las imágenes */
+.list-inline img {
+border-radius: 50%; /* Estilo adicional para las imágenes (borde redondeado en este caso) */
+}
+
+.row {
+background-color: #6b1932; /* Color de fondo para la fila */
+}
+
+.col-sm-3 {
+padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+.list-inline {
+margin-top: 10px; /* Ajusta el margen superior de la lista */
+}
+
+.list-inline li {
+margin-bottom: 5px; /* Ajusta el margen inferior de cada elemento de la lista */
+}
+
+.list-inline a {
+color: #36582e; /* Color de texto para los enlaces */
+}
+
+.list-inline a:hover {
+color: #36582e; /* Color de texto al pasar el mouse sobre los enlaces */
+}
+
+.form-group {
+margin-bottom: 20px; /* Ajusta el margen inferior de cada grupo de formulario */
+}
+
+.col-md-4 {
+margin-bottom: 10px; /* Ajusta el margen inferior de cada columna */
+}
+
+input[type="text"],
+input[type="date"],
+select.form-control {
+background-color: rgba(255, 255, 255, 0.8); /* Color de fondo para los campos de entrada */
+border: none; /* Elimina el borde de los campos de entrada */
+padding: 10px; /* Añade espacio interno a los campos de entrada */
+width: 100%; /* Ancho completo para los campos de entrada */
+}
+
+button {
+background-color: #438762; /* Color de fondo para el botón */
+color: #df4646; /* Color de texto para el botón */
+border: none; /* Elimina el borde del botón */
+padding: 10px 20px; /* Ajusta el espacio interno del botón */
+cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button:hover {
+background-color: #0056b3; /* Color de fondo para el botón al pasar el mouse */
+}
+/* Estilos para el menú de navegación */
+.navbar-nav {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.navbar-nav li {
+display: inline-block;
+margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+.navbar-nav li:last-child {
+margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.navbar-nav li a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+padding: 10px 15px;
+border-radius: 5px; /* Bordes redondeados */
+transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.navbar-nav li a:hover {
+background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-search {
+background: none;
+border: none;
+padding: 0;
+cursor: pointer;
+}
+
+.btn-search img {
+width: 20px;
+height: 20px;
+vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+.navbar-nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.navbar-nav li {
+position: relative;
+}
+
+.navbar-nav li ul {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #fff;
+border: 1px solid #ccc;
+padding: 10px;
+}
+
+.navbar-nav li:hover ul {
+display: block;
+}
+
+.navbar-nav li ul li {
+margin: 0;
+}
+
+.navbar-nav li ul li a {
+display: block;
+color: #333;
+text-decoration: none;
+padding: 8px 12px;
+}
+
+.navbar-nav li ul li a:hover {
+background-color: #f0f0f0;
+}
+
+.carousel-item img {
+width: 100%;
+height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+width: 5%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+filter: invert(100%);
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+color: rgb(188, 66, 66);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+.video-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+iframe {
+max-width: 100%;
+max-height: 100%;
+}
+
+
+
+/* Estilos generales */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Estilos del banner */
+.banner {
+background-color: #f2f2f2;
+padding: 20px;
+text-align: center;
+}
+
+.content-banner {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.content-banner h2 {
+font-size: 24px;
+margin-top: 10px;
+}
+
+.content-banner a {
+display: inline-block;
+background-color: #700606;
+color: #fcfafa;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 20px;
+}
+
+/* Estilos de las características */
+.container-features {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+
+.card-feature {
+background-color: #fff;
+border: 1px solid #700606;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+width: 250px;
+}
+
+.card-feature i {
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.card-feature span {
+font-weight: bold;
+color: #333;
+}
+
+.card-feature p {
+color: #666;
+margin-top: 5px;
+}
+
+/* Reset de estilos */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+padding: 20px;
+}
+
+/* Estilos del contenedor de productos */
+.top-products {
+text-align: center;
+}
+
+/* Estilos del título */
+.heading-1 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+/* Estilos del contenedor de opciones */
+.container-options {
+margin-bottom: 20px;
+}
+
+.container-options span {
+cursor: pointer;
+margin: 0 10px;
+padding: 5px 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.container-options span.active {
+background-color: #700606;
+color: #fff;
+}
+
+/* Estilos del contenedor de productos */
+.container-products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20
+}
+
+
+
+
+.gallery {
+grid-template-rows: repeat(2, 15rem);
+}
+
+
+.gallery {
+grid-template-rows: repeat(2, 20rem);
+}
+
+
+
+
+/* Estilos adicionales para el formulario de búsqueda */
+.input-group {
+border: 1px solid #ced4da;
+border-radius: 20px;
+overflow: hidden;
+}
+
+.form-control {
+border: none;
+border-radius: 20px;
+padding: 10px 15px;
+font-size: 16px;
+box-shadow: none;
+}
+
+.btn-primary {
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 20px;
+padding: 10px 20px;
+font-size: 16px;
+transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+background-color: #0056b3;
+}
+
+
+body {
+background-color: lightgrey;
+}
+
+#kiko-slider {
+font-family: sans-serif;
+margin: auto;
+background-color: white;
+max-width: 800px;
+width: 100%;
+padding: 30px;
+box-sizing: border-box;
+}
+
+#kiko-slider>ul,
+li {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+#kiko-slider>ul.slider {
+position: relative;
+max-width: 800px;
+width: 100%;
+height: 300px;
+}
+
+#kiko-slider>ul.slider h1 {
+position: absolute;
+background-color: rgba(255, 255, 255, 0.6);
+padding: 10px;
+left: 50%;
+top: 100px;
+transform: translate(-50%, -50%);
+}
+
+#kiko-slider>ul.slider li {
+position: absolute;
+left: 0px;
+top: 0px;
+opacity: 0;
+width: inherit;
+height: inherit;
+transition: opacity .5s;
+background: #fff;
+}
+
+#kiko-slider>ul.slider li img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+}
+
+#kiko-slider>ul.slider li:first-child {
+opacity: 1;
+/*Mostramos el primer <li>*/
+}
+
+#kiko-slider>ul.slider li:target {
+opacity: 1;
+/*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider>.menu {
+text-align: center;
+margin: 20px;
+}
+
+#kiko-slider>.menu li {
+display: inline-block;
+text-align: center;
+}
+
+#kiko-slider>.menu li a {
+display: inline-block;
+color: rgb(208, 70, 70);
+text-decoration: none;
+background-color: rgb(175, 66, 66);
+padding: 10px;
+width: 20px;
+height: 20px;
+font-size: 20px;
+border-radius: 100%;
+}
+
+
+/* Estilos para el menú de navegación */
+.bg-body-tertiary {
+background-color: #f0f0f0; /* Cambiar al color deseado */
+}
+
+.color-menu {
+color: #333; /* Cambiar al color deseado */
+}
+
+.titulo-menu {
+font-size: 1.5rem; /* Tamaño de fuente del título */
+}
+
+.navbar {
+padding: 1rem 0; /* Espaciado interno */
+}
+
+.nav-link {
+padding: 0.5rem 1rem; /* Espaciado interno de los enlaces */
+margin-right: 10px; /* Margen derecho entre los enlaces */
+}
+
+.form-inline {
+margin-left: auto; /* Mover el formulario a la derecha */
+}
+
+.input-group {
+margin-bottom: 0; /* Eliminar el margen inferior */
+}
+
+.input-group-prepend {
+margin-right: 10px; /* Margen derecho entre el icono y el input */
+}
+
+.form-control {
+width: 200px; /* Ancho del input de búsqueda */
+}
+
+
+/* styles/LoginPage.css */
+
+.login-page {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url('');
+background-size: cover;
+}
+
+.login-form {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 5px;
+border-radius: 1px;
+text-align: center;
+}
+
+.login-form h2 {
+margin-bottom: 5px;
+}
+
+body{
+background:url('http://www.wallpaperup.com/uploads/wallpapers/2012/10/21/20181/cad2441dd3252cf53f12154412286ba0.jpg');
+padding:50px;
+}
+
+#login-dp{
+min-width: 250px;
+padding: 14px 14px 0;
+overflow:hidden;
+background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+font-size:12px    
+}
+#login-dp .bottom{
+background-color:rgba(255,255,255,.8);
+border-top:1px solid #ddd;
+clear:both;
+padding:14px;
+}
+#login-dp .social-buttons{
+margin:12px 0    
+}
+#login-dp .social-buttons a{
+width: 49%;
+}
+#login-dp .form-group {
+margin-bottom: 10px;
+}
+.btn-fb{
+color: #fff;
+background-color:#3b5998;
+}
+.btn-fb:hover{
+color: #fff;
+background-color:#496ebc 
+}
+.btn-tw{
+color: #fff;
+background-color:#55acee;
+}
+.btn-tw:hover{
+color: #fff;
+background-color:#59b5fa;
+}
+@media(max-width:768px){
+#login-dp{
+    background-color: inherit;
+    color: #fff;
+}
+#login-dp .bottom{
+    background-color: inherit;
+    border-top:0 none;
+}
+}
+
+
+
+/* Estilos para el input-group */
+.input-group {
+margin-bottom: 15px;
+}
+
+.input-group-prepend,
+.input-group-append {
+display: flex;
+}
+
+.input-group-text {
+background-color: #007bff;
+color: #fff;
+border-color: #007bff;
+}
+
+/* Estilos para el custom-file */
+.custom-file {
+position: relative;
+display: inline-block;
+width: 100%;
+}
+
+.custom-file-input {
+position: relative;
+z-index: 2;
+width: 100%;
+height: calc(2.25rem + 2px);
+margin: 0;
+opacity: 0;
+}
+
+.custom-file-label {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1;
+height: calc(2.25rem + 2px);
+padding: .375rem .75rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+cursor: pointer;
+}
+
+.custom-file-label::after {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: 3;
+display: block;
+height: calc(2.25rem + 2px);
+padding: .375rem .75rem;
+line-height: 1.5;
+color: #495057;
+content: "Browse";
+background-color: #e9ecef;
+border-left: 1px solid #ced4da;
+border-radius: 0 .25rem .25rem 0;
+/* Estilos para el botón de enviar */
+button {
+padding: 10px 20px;
+background-color: #700606; /* Color de fondo del botón */
+color: #fff; /* Color del texto del botón */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #700606; /* Color de fondo del botón al pasar el mouse */
+}
+
+.custom-file:hover .custom-file-label::after {
+background-color: #dee2e6;
+}
+
+.custom-file input:focus~.custom-file-label,
+.custom-file input:active~.custom-file-label {
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenedor principal del slider */
+#kiko-slider {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Estilos para la lista de slides */
+.slider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.5s ease; /* Transición suave al cambiar de slide */
+}
+
+/* Estilos para cada slide */
+.slider li {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Estilos para el enlace del menú */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease; /* Transición suave al cambiar de slide */
+}
+
+.menu li a.active {
+  background-color: #ff6600; /* Cambia el color del enlace activo según tu preferencia */
+}

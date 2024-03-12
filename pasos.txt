@@ -1,0 +1,8 @@
+Traer cambios vamos a usar el comando:
+git pull
+
+1.- Paso uno, cuando hagas una modificación usaras el comando "git add."
+
+2.- git commit -m "Vas agregar un comentario"
+
+3.- Mandar los cambios con "git push"
