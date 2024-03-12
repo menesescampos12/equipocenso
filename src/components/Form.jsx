@@ -260,9 +260,9 @@ const Form = () => {
     <img src="images/10.png" alt="apoyos" />
     </div>
     <div class="sobremi">
-        <p class="titulo-seccion">Afectaciones en otis?</p>
-        <h3>La Secretaría de Bienestar inicia un camino de transformación para que las y los mexicanos tengamos una vida mejor. Junto al Gobierno de México hemos de empeñarnos en un cambio de fondo, en el que nuestra prioridad sea la gente y, de manera muy e...</h3>
-        <p>bienestar de pagos</p>
+        <p class="titulo-seccion">Sobre Nosotros</p>
+        <h3>La Secretaría de Bienestar inicia un camino de transformación para que las y los mexicanos tengamos una vida mejor. Junto al Gobierno de México hemos de empeñarnos en un cambio de fondo, en el que nuestra prioridad sea el pueblo de México</h3>
+        <p>Morena, la esperanza de México</p>
     </div>
 </section>
 
