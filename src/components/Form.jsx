@@ -49,7 +49,7 @@ const Form = () => {
     
    
 
-    <h1> Secretaria de Bienestar Gob.mx</h1>
+    <h1> Secretaria de Bienestar</h1>
      
      
 
