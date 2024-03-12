@@ -214,7 +214,7 @@ const Form = () => {
         <span className="add-cart">
           <i className="fa-solid fa-basket-shopping" />
         </span>
-        <p className="price">sigen los apoyos </p>
+        <p className="price">Dspensas y aguas embotelladas</p>
       </div>
     </div>
     <div className="card-product">
@@ -240,11 +240,11 @@ const Form = () => {
           <i className="fa-solid fa-star" />
           <i className="fa-regular fa-star" />
         </div>
-        <h3>Canastas basicas</h3>
+        <h3>Apoyo de casa por casa</h3>
         <span className="add-cart">
           <i className="fa-solid fa-basket-shopping" />
         </span>
-        <p className="price">inician canastas basicas</p>
+        <p className="price">Canasta básica</p>
       </div>
     </div>
   </div>
