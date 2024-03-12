@@ -118,11 +118,11 @@ const Form = () => {
 
      
     <section className="container top-products">
-  <h1 className="heading-1">Acapulco  Huracan Otis</h1>
+  <h1 className="heading-1">Acapulco  Huracán Otis</h1>
   <div className="container-options">
     <span className="active">Pagos</span>
-    <span>resagados</span>
-    <span>censos</span>
+    <span>Resagados</span>
+    <span>Censos</span>
   </div>
   <div className="container-products">
     <div className="card-product">
