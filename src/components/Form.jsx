@@ -59,7 +59,7 @@ const Form = () => {
     </div>
     <div class="sobremi">
         <p class="titulo-seccion">Esta página es del gobmexico</p>
-        <h3>La Secretaría de Bienestar gob.mx</h3>
+        <h3>La Secretaría de Bienestar</h3>
         <p>bienestar de pagos</p>
         <div id="kiko-slider">
 
